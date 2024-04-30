@@ -7,49 +7,88 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table border = 1 style="width: 100%; height: 100%">
+    <table border= 1 style="width: 100%; height: 100%">
 		<tr>
 			<td>
-				<table border = 1>
-					<th colspan=2>
-						Nested Table 2
-					</th>
+				<table border=1 style="width: 100%; height: 60%">
 					<tr>
-						abc
+						<th colspan="2">
+							Nested Table 2
+						</th>
 					</tr>
 					<tr>
-						def
+						<th> Column1</th>
+						<th>Column 2</th>
+					</tr>
+					<tr>
+						<td>
+							abc
+						</td>
+						<td>
+							def
+						</td>
+					</tr>
+				</table>
+				
+			</td>
+			<td> 
+				<table border=1>
+					<tr>
+						<th>
+							Nested Table
+				    	</th>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+								<li> list item </li>
+								<li> list item</li>
+								<li> list item</li>
+							</ul>
+						</td>
 					</tr>
 				</table>
 			</td>
-			<table border=1>
-				<th>
-					Nested table 1
-				</th>
-				<ul>
-					<li> List item</li>
-					<li> List item</li>
-					<li> List item </li>
-				
-				</ul>
-			</table>
-			
 		</tr>
-      <!-- Your code here -->
 		<tr>
-			<table border = 1>
-				<th colspan= 2>
-					Nested Table 3
-				</th>
-				<tr>
-					<a>Nested Table </a>
-				</tr>
-				<tr>
-					Demo Continued
-				</tr>
-			</table>
-			
+			<td>
+				<!-- Nested Table 3 -->
+				<table border=1>
+					<tr>
+						<th colspan="2">
+							Nested Table 3
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<a>Nested Table</a>
+						</td>
+						<td>
+							Demo continue
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<!-- Nested Table 4 -->
+				<table border = 1>
+					<tr>
+						<th calspan ="1">
+							Nested Table 4
+						</th>
+					</tr>
+					<tr style= background-color: black;, color: white;>
+						<td  style=  "background-color: black; color: white;">
+							HTML
+						</td>
+					</tr>
+					
+				</table>
+			</td>
 		</tr>
+		
+		
+		
     </table>
   </body>
 </html>
